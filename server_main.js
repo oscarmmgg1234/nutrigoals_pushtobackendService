@@ -1,6 +1,6 @@
 const express = require("express");
 const { listening_port } = require("./src/utils");
-const { pushExistingToBuild } = require("./src/scripts");
+const { pushExistingToBuild, pushNewToBuild } = require("./src/scripts");
 
 const api = express();
 
